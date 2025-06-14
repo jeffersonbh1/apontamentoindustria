@@ -57,7 +57,7 @@ const Login: React.FC = () => {
 
             <div>
               <label htmlFor="username" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Username or Email
+                Nome de usuário
               </label>
               <input
                 id="username"
@@ -72,7 +72,7 @@ const Login: React.FC = () => {
 
             <div>
               <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Password
+                Senha
               </label>
               <div className="relative">
                 <input
@@ -110,7 +110,7 @@ const Login: React.FC = () => {
                 to="/forgot-password"
                 className="text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
               >
-                Forgot password?
+                Esqueceu sua senha?
               </Link>
             </div>
 
@@ -122,7 +122,7 @@ const Login: React.FC = () => {
               {loading ? (
                 <Loader2 className="w-5 h-5 animate-spin" />
               ) : (
-                <span>Sign In</span>
+                <span>Entrar</span>
               )}
             </button>
           </form>
