@@ -21,11 +21,11 @@ const Sidebar: React.FC = () => {
 
   const menuItems = [
     { icon: Home, label: 'Dashboard', path: '/dashboard' },
-    { icon: Building2, label: 'Companies', path: '/companies' },
-    { icon: Users, label: 'Employees', path: '/employees' },
-    { icon: Factory, label: 'Equipment', path: '/equipment' },
-    { icon: Activity, label: 'Activities', path: '/activities' },
-    { icon: BarChart3, label: 'Reports', path: '/reports' }
+    { icon: Building2, label: 'Empresa', path: '/companies' },
+    { icon: Users, label: 'Empregados', path: '/employees' },
+    { icon: Factory, label: 'Equipamentos', path: '/equipment' },
+    { icon: Activity, label: 'Atividades', path: '/activities' },
+    { icon: BarChart3, label: 'Relatório', path: '/reports' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
