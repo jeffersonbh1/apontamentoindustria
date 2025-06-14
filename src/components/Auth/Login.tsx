@@ -19,13 +19,13 @@ const Login: React.FC = () => {
     setError('');
 
     if (!username || !password) {
-      setError('Please enter both username and password');
+      setError('Por favor digite seu usuário e senha');
       return;
     }
 
     const success = await login(username, password);
     if (!success) {
-      setError('Invalid username or password');
+      setError('Nome de usuário ou senha inválidos!');
     }
   };
 
@@ -41,7 +41,7 @@ const Login: React.FC = () => {
             Production Tracker
           </h1>
           <p className="text-gray-600 dark:text-gray-400">
-            Sign in to access your dashboard
+            Faça login para acessar seu painel
           </p>
         </div>
 
